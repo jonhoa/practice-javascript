@@ -13,15 +13,15 @@
 
 // #  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 // #     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
-var strArray = ["winner", "winner", "chicken", "dinner"];
-var newArray = [];
+// var strArray = ["winner", "winner", "chicken", "dinner"];
+// var newArray = [];
 
-strArray.forEach(function(word) {
-  if (word.includes("w")) {
-    newArray.push(word);
-  }
-});
-console.log(newArray);
+// strArray.forEach(function(word) {
+//   if (word.includes("w")) {
+//     newArray.push(word);
+//   }
+// });
+// console.log(newArray);
 
 
 // #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
@@ -57,6 +57,15 @@ console.log(newArray);
 
 // #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 // #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+// var strArray = ["a", "man", "a", "plan", "a", "canal", "panama"];
+// var strNew = [];
+
+// strArray.forEach(function(value) {
+//   if (value.length < 4) {
+//     strNew.push(value);
+//   }
+// });
+// console.log(strNew);
 
 // #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
